@@ -2,19 +2,22 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
 
-BRANDS = []
+BRAND = []
 
   def initialize(brand)
     @brand = brand
   end
 
-  def brands=(brands)
+  def brand=(brand)
     @brands = brands
     BRANDS << brands
   end
 
   def cobble
     self.condition = "new"
-    puts "Your shoe is as good as new!"
+    puts "Your shoe is as good as new!"  
+
+    def size 
+      
   end
 end
