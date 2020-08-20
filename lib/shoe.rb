@@ -15,9 +15,9 @@ BRAND = []
 
   def cobble
     self.condition = "new"
-    puts "Your shoe is as good as new!"  
+    puts "Your shoe is as good as new!"
 
-    def size 
-      
+    def size
+
   end
 end
