@@ -9,8 +9,8 @@ BRAND = []
   end
 
   def brand=(brand)
-    @brands = brands
-    BRANDS << brands
+    @brand = brand
+    BRAND << brand
   end
 
   def cobble
