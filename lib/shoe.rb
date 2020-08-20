@@ -10,7 +10,7 @@ BRANDS = []
 
   def brands=(brands)
     @brand = brand
-    BRANDS << brand 
+    BRANDS << brand
   end
 
   def cobble
