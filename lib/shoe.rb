@@ -8,7 +8,7 @@ BRANDS = []
     @brand = brand
   end
 
-  def brands=(brand)
+  def brand=(brand)
     @brand = brand
     BRANDS << brand
   end
